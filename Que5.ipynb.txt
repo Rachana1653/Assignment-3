@@ -1,0 +1,16 @@
+# Questions 5:
+# Consider two square numpy arrays. Stack them vertically and horizontally.
+
+import numpy as np
+
+
+array1 = np.square([1, 4, 5, 8,9,7])
+array2 = np.square([4, 5, 8, 6, 9])  
+
+
+
+
+print(" horizontal stack :", np.hstack((array1, array2)))
+
+
+print("vertical stack : ", np.hstack((array1, array2)))

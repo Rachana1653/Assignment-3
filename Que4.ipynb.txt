@@ -1,0 +1,16 @@
+# Questions 4:
+# How to convert a 1D array into a 2D array? Demonstrate with the help of a code snippet
+
+import numpy as np
+
+
+array = np.arange(int(input()))
+print("1D array (shape) :", arr.shape)
+
+
+two_d_array_row = array[np.newaxis]
+print("2D array for row is :", two_d_array_row.shape)
+
+
+two_d_array_col = array[:, np.newaxis]
+print("2D array for column is :", two_d_array_col.shape)
